@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(252, 252, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    background-color: rgb(32, 32, 32);
+}
+.perfect {
+    color: rgb(19, 19, 19);
+    flex: 1;
+    padding: 10px;
+    color : #ffffff;
+    letter-spacing: 1px;
+}
+
+ul{
+    display: flex;
+    margin-right: 50px;
+    list-style: none;
+}
+
+li{
+    margin: 15px;
+}
+.h{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.box{
+    margin:50px auto;
+    text-align: center;
+
+}
+
+.box-two{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 10px 10px;
+
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    
+    margin: 0px 10px;
+}
+
+.form{
+    width: 520px;
+    align-items: center;
+    margin: auto;
+  text-align: center;
+    margin: 0px 10px;
+ 
+}
+.center{
+    position: relative;
+    top: 50%;
+    left: 50%;
+  margin: auto;
+  transform: translate(-50%,-70%);
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 50px;
+  
+}
+.login{
+    display: inline-block;
+}
+input[type='email'], input[type='password']{
+ width:280px;
+ padding: 6px;
+ border: none;
+ background-color: rgb(238, 238, 238);
+  margin: 10px auto;
+  outline: none;
+  text-align: center;
+}
+
+#btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(to right bottom, #ff4353, #ff5747, #fd693c, #fa7a32, #f48a2a);
+    outline: none;
+}
+.about{
+    width: 100%;
+    background-image: linear-gradient(to right top, #161616, #161616, #161616, #161616, #161616);
+    margin :auto;
+    text-align: center;color: white;
+}
+
+.use{
+ margin-top: 20px;
+}
+
+.very,.veryf{
+    display: inline;
+}
+.veryf{
+    position: relative;
+    top: 15px;
+}
+ 
+.pop{
+
+   
+}
+
+.fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    width: 70%;
+    height: 25px;
+    color: white;
+    line-height: 1.5;
+    background-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    
+}
+
+.insta{
+    text-align: center;
+    width: 60%;
+    height: 25px;
+    margin: auto;
+    color: white;
+    line-height: 1.5;
+    background-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.youtube{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    height: 25px;
+    color: white;
+    line-height: 1.5;
+    background-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+.tiktok{
+    text-align: center;
+    width: 41%;
+    height: 25px;
+    color: white;
+    line-height: 1.5;
+    background-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.whatsapp{
+    text-align: center;
+    width: 31%;
+    height: 25px;
+    color: white;
+    line-height: 1.5;
+    background-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    margin-top: 40px;
+    margin: auto;
+    margin-bottom: 18px;
+}
+ 
+@media only screen and (max-width: 750px) {
+    body {
+     
+    }
+    #img{
+        width: 410px;
+    }
+
+    .on,.use,.very{
+        font-size: 20px;
+    }
+    
+
+  }
+  @media only screen and (max-width: 820px) {
+    body {
+     
+    }
+    #img{
+        width: 320px;
+    }
+
+    .on{
+        font-size: 20px;
+    }
+    .on,.use,.very{
+        font-size: 20px;
+    }
+
+  }
+  @media only screen and (max-width: 650px) {
+  
+    #img{
+        width: 350px;
+    }
+
+    .on{
+        font-size: 20px;
+    }
+    .on,.use,.very{
+        font-size: 20px;
+    }
+
+  }
+  @media only screen and (max-width: 568px) {
+   
+    #img{
+        width: 320px;
+    }
+
+    .on{
+        font-size: 20px;
+    }
+
+  }
